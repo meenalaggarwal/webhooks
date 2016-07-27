@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Basics of Programming, Using Python",
+    "author": "Kunal Chawla",
+    "thumbnailsmall": "cover.jpg",
+    "thumbnaillarge": "cover.jpg",
+    "schema": 1,
+    "model": {
+      "type": "type-1"
+    }
+  },
+  "definition": {
+    "learning-objectives": {
+      "Demonstrate how to use programming ideas like functions and classes while building multiple Python projects": {
+        "learning-objectives": {}
+      },
+      "Showcase how to implement data structures like Lists and Dictionaries in Python": {
+        "learning-objectives": {}
+      },
+      "Use Python documentation to debug errors": {
+        "learning-objectives": {}
+      },
+      "Implement built-in Python functions and classes to reuse code": {
+        "learning-objectives": {}
+      }
+    },
+    "tags": {
+      "Type": {
+        "tags": {
+          "Reading": {
+            "tags": {}
+          },
+          "Videos": {
+            "tags": {}
+          },
+          "Practice": {
+            "tags": {}
+          }
+        }
+      },
+      "Subject": {
+        "tags": {
+          "Introduction": {
+            "tags": {}
+          },
+          "For Loops": {
+            "tags": {}
+          }
+        }
+      },
+      "Advanced": {
+        "tags": {
+          "Yes": {
+            "tags": {}
+          },
+          "No": {
+            "tags": {}
+          }
+        }
+      }
+    }
+  },
+  "items": {
+    "model": {
+      "introduction": [
+        {
+          "name": "Understanding JavaScript Function Invocation and \"this\" Yehuda Katz, yehudakatz.com",
+          "item-type": "resource",
+          "resource": "RE_0003",
+          "item-code": "Understanding_JavaScript_Function_Invocation_and_this_Yehuda_Katz,_yehudakatz.com",
+          "tracking": true
+        }
+      ],
+      "pretest": [
+        {
+          "name": "Understanding JavaScript Function Invocation and \"this\" Yehuda Katz, yehudakatz.com",
+          "item-type": "resource",
+          "resource": "RE_0003",
+          "item-code": "Understanding_JavaScript_Function_Invocation_and_this_Yehuda_Katz,_yehudakatz.com",
+          "tracking": true
+        },
+        {
+          "name": "Common JavaScript \"Gotchas\" James Fuller, jblotus.com",
+          "item-type": "resource",
+          "resource": "RE_0004",
+          "item-code": "Common_JavaScript_Gotchas_James_Fuller,_jblotus.com",
+          "tracking": true
+        }
+      ],
+      "remediations": [
+        {
+          "name": "Understanding JavaScript Function Invocation and \"this\" Yehuda Katz, yehudakatz.com",
+          "item-type": "resource",
+          "resource": "RE_0003",
+          "item-code": "Understanding_JavaScript_Function_Invocation_and_this_Yehuda_Katz,_yehudakatz.com",
+          "tracking": true
+        },
+        {
+          "name": "Common JavaScript \"Gotchas\" James Fuller, jblotus.com",
+          "item-type": "resource",
+          "resource": "RE_0004",
+          "item-code": "Common_JavaScript_Gotchas_James_Fuller,_jblotus.com",
+          "tracking": true
+        }
+      ]
+    },
+    "default": [
+      {
+        "name": "Module 1 - Defining and Using Functions",
+        "item-type": "folder",
+        "item-code": "Module_1_Defining_and_Using_Functions",
+        "sub-type": "default",
+        "items": [
+          {
+            "name": "Lesson Intro",
+            "item-type": "resource",
+            "resource": "RE_0001",
+            "item-code": "Module_1_Defining_and_Using_Functions/Lesson_Intro",
+            "tracking": true
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "generic": {
+      "RE_0001": {
+        "sub-type": "video",
+        "tags": [
+          "Type/Videos"
+        ],
+        "video": {
+          "url": "...."
+        },
+        "learning-objectives": [
+          "Showcase how to implement data structures like Lists and Dictionaries in Python"
+        ]
+      },
+      "RE_0002": {
+        "sub-type": "md",
+        "tags": [
+          "Type/Reading"
+        ],
+        "md": {
+          "url": "0101_T3_Installing_Python_on_Windows.md"
+        },
+        "learning-objectives": [
+          "Showcase how to implement data structures like Lists and Dictionaries in Python"
+        ]
+      },
+      "RE_0003": {
+        "sub-type": "html",
+        "tags": [
+          "Type/Reading"
+        ],
+        "html": {
+          "url": "ch01_sec01_understanding javascript functions.html"
+        },
+        "learning-objectives": [
+          "Implement built-in Python functions and classes to reuse code"
+        ]
+      },
+      "RE_0004": {
+        "sub-type": "html",
+        "tags": [
+          "Type/Reading"
+        ],
+        "html": {
+          "url": "ch01_sec02_Common_JavaScript_Gotchas.html"
+        },
+        "learning-objectives": [
+          "Implement built-in Python functions and classes to reuse code"
+        ]
+      }
+    },
+    "test": {},
+    "ebook": {}
+  }
+}
